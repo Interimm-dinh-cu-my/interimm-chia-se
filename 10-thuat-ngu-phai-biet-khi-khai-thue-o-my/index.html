@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tài liệu tra cứu kỹ thuật: ánh xạ 10 thuật ngữ thuế Mỹ vào hồ sơ khai thuế</title>
+<meta name="description" content="Tài liệu này tổ chức 10 thuật ngữ khai thuế theo dữ liệu đầu vào, phép phân loại và tài liệu kiểm chứng. Người mới định cư có thể biết thuật ngữ xuất hiện ở đâu">
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; max-width: 740px; margin: 2.5rem auto; padding: 0 1.25rem; line-height: 1.75; color: #1a1a1a; background: #fff; }
+  h1 { font-family: system-ui, -apple-system, sans-serif; font-size: 2rem; line-height: 1.25; margin-bottom: 1.5rem; color: #111; }
+  h2, h3 { font-family: system-ui, -apple-system, sans-serif; color: #222; margin-top: 2rem; }
+  a { color: #0057b8; text-decoration: underline; }
+  a:hover { color: #003d82; }
+  img { max-width: 100%; height: auto; display: block; margin: 1.5rem 0; border-radius: 4px; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2.5rem 0; }
+  p { margin: 1rem 0; }
+  ul, ol { padding-left: 1.5rem; margin: 1rem 0; }
+  li { margin: 0.4rem 0; }
+  blockquote { border-left: 3px solid #0057b8; margin: 1.5rem 0; padding: 0.5rem 1rem; color: #555; font-style: italic; }
+  strong { color: #111; }
+</style>
+</head>
+<body>
+<h1>Tài liệu tra cứu kỹ thuật: ánh xạ 10 thuật ngữ thuế Mỹ vào hồ sơ khai thuế</h1>
+<img src="https://www.interimm.vn/wp-content/uploads/2023/02/thuat-ngu-can-biet.jpg" alt="10 thuật ngữ khai thuế ở Mỹ" style="width:100%;max-height:420px;object-fit:cover;">
+<p>Tài liệu này tổ chức 10 thuật ngữ khai thuế theo dữ liệu đầu vào, phép phân loại và tài liệu kiểm chứng. Người mới định cư có thể biết thuật ngữ xuất hiện ở đâu trong quy trình thay vì chỉ nhớ bản dịch.</p>
+<h2>Cấu trúc dữ liệu tối thiểu cho mỗi giao dịch</h2>
+<p>Mỗi khoản thu, chi hoặc giao dịch tài sản có năm trường: ngày phát sinh, bên trả hoặc nhận, số tiền, mục đích và chứng từ. Với tài sản, cần thêm ngày mua, giá mua, ngày bán, giá bán và chi phí. Với người phụ thuộc, cần thêm quan hệ, tuổi, thời gian cư trú và mã số thuế.</p>
+<p>Khi dữ liệu đã đủ, các thuật ngữ dưới đây được dùng để phân loại.</p>
+<h2>Nhánh A: Giao dịch tài sản</h2>
+<p><strong>Thặng dư vốn (Capital Gains)</strong> được xem xét khi giá bán tài sản cao hơn cơ sở giá vốn. Dữ liệu đầu vào gồm giá mua, các điều chỉnh hợp lệ, chi phí bán và giá bán. Thời gian nắm giữ là một thuộc tính riêng cần lưu vì có thể ảnh hưởng cách xử lý thuế.</p>
+<p><strong>Lỗ vốn (Capital Loss)</strong> là khi giá bán thấp hơn cơ sở giá vốn. Khoản lỗ không nên được ghi nhận chỉ từ biến động giá trên màn hình; giao dịch bán và chứng từ hoàn tất xác định kết quả đã thực hiện. Lãi và lỗ cần được tổng hợp theo quy tắc của năm tính thuế.</p>
+<h2>Nhánh B: Người phụ thuộc và tín dụng gia đình</h2>
+<p><strong>Tín dụng chăm sóc hộ gia đình và người phụ thuộc (Child and Dependent Care Credit)</strong> đòi hỏi dữ liệu về người được chăm sóc, người cung cấp dịch vụ và mục đích của chi phí. Điều kiện không chỉ dựa vào việc gia đình đã trả tiền chăm sóc.</p>
+<p><strong>Tín dụng thuế trẻ em (Child Tax Credit)</strong> yêu cầu kiểm tra trẻ có đáp ứng tiêu chí về tuổi, quan hệ, thời gian cư trú và mã số an sinh xã hội hay không. Các trường dữ liệu phải được xác minh theo hướng dẫn của Sở Thuế vụ Mỹ (IRS) cho đúng năm.</p>
+<h2>Nhánh C: Thu nhập và khoản giảm trừ</h2>
+<p><strong>Thu nhập không chịu thuế (Non-taxable Income)</strong> là kết quả của quy tắc phân loại, không phải nhãn do người chuyển tiền tự đặt. Dữ liệu cần kiểm tra gồm nguồn tiền, lý do nhận và mối quan hệ giữa các bên.</p>
+<p><strong>Miễn thuế thu nhập cá nhân (Personal Exemption)</strong> là khái niệm từng áp dụng trong các giai đoạn luật thuế nhất định. Khi hệ thống hoặc bảng tính cũ vẫn có trường này, cần kiểm tra hiệu lực của trường trong năm tính thuế hiện hành trước khi sử dụng.</p>
+<p><strong>Khấu trừ tiêu chuẩn (Standard Deduction)</strong> là khoản cố định gắn với tình trạng khai thuế và một số điều kiện cá nhân. Trường dữ liệu quan trọng nhất là tình trạng khai thuế, chẳng hạn độc thân, kết hôn khai chung hoặc chủ hộ.</p>
+<p><strong>Khấu trừ thuế (Tax Deduction)</strong> là nhóm rộng hơn, bao gồm các khoản được phép làm giảm thu nhập chịu thuế. Nếu chọn khấu trừ chi tiết, từng khoản cần có chứng từ và căn cứ phù hợp. Không nên đưa một chi phí vào bảng chỉ vì tên gọi có vẻ liên quan đến công việc.</p>
+<h2>Nhánh D: Hoạt động tự doanh</h2>
+<p><strong>Thu nhập tự doanh (Self-employment Income)</strong> thường đến từ kinh doanh độc lập, làm nghề tự do hoặc cung cấp dịch vụ với tư cách nhà thầu. Hệ thống theo dõi nên tách doanh thu, khoản hoàn trả, chi phí kinh doanh và chi tiêu cá nhân.</p>
+<p><strong>Doanh nghiệp tư nhân (Sole Proprietor)</strong> mô tả mô hình một cá nhân sở hữu và vận hành hoạt động kinh doanh. Thu nhập và chi phí thường được tổng hợp trên Phụ lục C của Mẫu 1040. Chủ sở hữu cần lưu sổ sách ngay cả khi không mở một tài khoản ngân hàng riêng, dù việc tách tài khoản giúp đối chiếu dễ hơn.</p>
+<h2>Luồng kiểm tra trước khi nộp</h2>
+<ol>
+<li>Xác định năm tính thuế và tình trạng khai thuế.</li>
+<li>Chuẩn hóa chứng từ thành các trường dữ liệu thống nhất.</li>
+<li>Phân loại giao dịch theo bốn nhánh ở trên.</li>
+<li>Đánh dấu khoản chưa rõ thay vì tự gán nhãn.</li>
+<li>Đối chiếu biểu mẫu và hướng dẫn IRS của đúng năm.</li>
+<li>Kiểm tra quy định tiểu bang nếu người khai có thu nhập hoặc cư trú tại nhiều nơi.</li>
+<li>Nhờ chuyên gia thuế xem lại khi hồ sơ có tài sản đầu tư, thu nhập tự doanh hoặc giao dịch xuyên biên giới.</li>
+</ol>
+<p>Cách tiếp cận này biến 10 thuật ngữ thành sơ đồ xử lý dữ liệu. Người khai thuế có thể dùng sơ đồ để chuẩn bị hồ sơ và đặt câu hỏi, nhưng quyết định cuối cùng vẫn phải dựa trên quy định hiện hành và hoàn cảnh thực tế.</p>
+<p>Reference: <a href="https://www.interimm.vn/blog/my/10-thuat-ngu-phai-biet-khi-khai-thue-o-my/">https://www.interimm.vn/blog/my/10-thuat-ngu-phai-biet-khi-khai-thue-o-my/</a></p>
+<p>See more:</p>
+<ul>
+<li><a href="https://dinhcumychatluong.blogspot.com/2026/08/10-thuat-ngu-khai-thue-o-my-hoi-nhanh.html">https://dinhcumychatluong.blogspot.com/2026/08/10-thuat-ngu-khai-thue-o-my-hoi-nhanh.html</a></li>
+<li><a href="https://docs.superhuman.com/@inh-cu-my-interimm/interimm-inh-cu-eb-5-syndication/bang-tra-cuu-10-thuat-ngu-khai-thue-o-my-cho-nguoi-moi-inh-cu-57">https://docs.superhuman.com/@inh-cu-my-interimm/interimm-inh-cu-eb-5-syndication/bang-tra-cuu-10-thuat-ngu-khai-thue-o-my-cho-nguoi-moi-inh-cu-57</a></li>
+<li><a href="https://dinhcumy-chia-se.pages.dev/10-thuat-ngu-phai-biet-khi-khai-thue-o-my/">https://dinhcumy-chia-se.pages.dev/10-thuat-ngu-phai-biet-khi-khai-thue-o-my/</a></li>
+</ul>
+<hr>
+<p><strong>Interimm</strong><br>Tầng 5 & 7, 22-24-26 Mạc Thị Bưởi, Phường Sài Gòn, Tp. Hồ Chí Minh<br>0931 830 838 (Hồ Chí Minh) – 0901 329 729 (Hà Nội)<br><a href="https://www.interimm.vn/">https://www.interimm.vn/</a></p>
+</body>
+</html>
